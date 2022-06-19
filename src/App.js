@@ -1,15 +1,18 @@
 import FirstComponent  from './components/learning-examples/FirstComponent'
 import SecondComponent  from './components/learning-examples/SecondComponent'
-import Counter from './components/Counter/Counter';
+// import Counter from './components/Counter/Counter';
 import './App.css';
-import { Component } from 'react';
+import './bootstrap.css'
+// import 'bootstrap/dist/css/bootstrap.min.css';
 
+import { Component } from 'react';
+import TodoApp from './components/ToDo/TodoApp';
 class App extends Component {
   render(){
     return (
       <div className="App">
-         <Counter/>
-         
+         {/* <Counter/> */}
+         <TodoApp></TodoApp>
          </div>
     
     );
